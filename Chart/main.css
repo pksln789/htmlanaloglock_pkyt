@@ -1,0 +1,235 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background: #f3f6f9;
+}
+body h5,
+body h6 {
+  font-weight: 600 !important;
+  margin: 0px;
+  color: #04c8c8;
+  font-size: 16px;
+}
+body p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+body span {
+  font-size: 12.35px;
+  display: inline !important;
+  font-weight: 500 !important;
+}
+body #over-all-year-chart {
+  min-width: 100%;
+  height: 380px;
+}
+body #month-wise-chart {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+}
+body #good-news-chart {
+  width: 100%;
+  height: 500px;
+}
+
+.student-behaviour-report .active h5 {
+  background-color: #dff8fa !important;
+  color: #19b8b0 !important;
+  border-radius: 5px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+.student-behaviour-report #button1 h5,
+.student-behaviour-report #button2 h5 {
+  color: black;
+  padding: 9px 12px;
+}
+.student-behaviour-report button {
+  border: none !important;
+}
+
+#incident-report table {
+  border-collapse: collapse;
+}
+#incident-report tbody {
+  display: block;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+#incident-report tbody td {
+  padding: 16px 12px;
+}
+#incident-report tbody tr {
+  vertical-align: top;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+#incident-report thead {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-radius: 5px;
+}
+#incident-report thead th {
+  padding: 16px 12px;
+}
+#incident-report #Incident p {
+  font-size: 14px;
+  font-weight: normal;
+}
+#incident-report #Incident span {
+  font-size: 14px;
+  background-color: #fdf3f6;
+  color: #f1416c;
+  border-radius: 3px;
+  display: inline !important;
+  padding: 2px 6px;
+  font-weight: 500;
+}
+
+#good-news-page h5,
+#good-news-page h6 {
+  font-weight: 600 !important;
+  margin: 0px;
+  color: #04c8c8;
+  font-size: 16px;
+}
+#good-news-page #good-news-report table {
+  border-collapse: collapse;
+}
+#good-news-page #good-news-report tbody {
+  display: block;
+  max-height: 76vh;
+  overflow-y: scroll;
+}
+#good-news-page #good-news-report tbody tr {
+  vertical-align: top;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+#good-news-page #good-news-report tbody td {
+  padding: 16px 12px;
+}
+#good-news-page #good-news-report thead {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-radius: 5px;
+}
+#good-news-page #good-news-report thead th {
+  padding: 16px 12px;
+}
+
+tbody::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+}
+
+@media screen and (max-width: 700px) {
+  #incident-report table thead tr th h6 {
+    font-size: 14px;
+  }
+  #incident-report table tbody tr td p,
+  #incident-report table tbody tr td span {
+    font-size: 12px !important;
+  }
+  #good-news-report table thead tr th h6 {
+    font-size: 16px;
+  }
+  #good-news-report table tbody tr td p,
+  #good-news-report table tbody tr td span {
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  #incident-report table thead tr th h6 {
+    font-size: 13px;
+  }
+  #incident-report table tbody tr td p,
+  #incident-report table tbody tr td span {
+    font-size: 11px !important;
+  }
+  #good-news-report table thead tr th h6 {
+    font-size: 14px;
+  }
+  #good-news-report table tbody tr td p,
+  #good-news-report table tbody tr td span {
+    font-size: 12px !important;
+  }
+}
+@media screen and (max-width: 630px) {
+  .student-behaviour-report h5 {
+    font-size: 17px;
+  }
+  .student-behaviour-report h4 {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .student-behaviour-report h5 {
+    font-size: 14px;
+  }
+  .student-behaviour-report h4 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .student-behaviour-report h5 {
+    font-size: 13px;
+    text-align: left;
+  }
+  .student-behaviour-report h4 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 501px) {
+  #goodnewschart {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 681px) {
+  #goodnewschart {
+    height: 400px;
+  }
+}
+@media screen and (min-width: 721px) {
+  #goodnewschart {
+    height: 400px;
+  }
+}
+@media screen and (min-width: 881px) {
+  #goodnewschart {
+    height: 400px;
+  }
+}
+@media screen and (min-width: 991px) {
+  #goodnewschart {
+    height: 400px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  #goodnewschart {
+    height: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #goodnewschart {
+    height: 450px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  #goodnewschart {
+    height: 450px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #goodnewschart {
+    height: 500px;
+  }
+}
+#good-news-page {
+  display: none;
+}/*# sourceMappingURL=main.css.map */
